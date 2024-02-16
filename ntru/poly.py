@@ -4,7 +4,7 @@ from operator import neg
 from operator import mod
 from fractions import Fraction as frac
 from numpy.polynomial import polynomial as P
-import fracModulo
+from ntru import fracModulo
 
 # Resize Adds Leading Zeros to the polynomial vectors
 
@@ -116,7 +116,8 @@ def extEuclidPoly(a, b):
         Q.append(q)
         R.append(r)
         a1 = b1
-    b1 = r
+        b1 = r
+
     S = [0]*(len(Q)+2)
     T = [0]*(len(Q)+2)
 

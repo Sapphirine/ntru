@@ -1,6 +1,10 @@
 # Description of this example is provided in NTRU.md
+import sys
+import os
 
-from ntru import *
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from ntru.ntru import *
 
 # Bob
 print("Bob Will Generate his Public Key using Parameters")

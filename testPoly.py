@@ -1,7 +1,7 @@
 # TEST FILE FOR poly.py
 # Generates random polynomials and checks them agains numpy functions
 
-import poly as q
+from ntru import poly as q
 import random as rand
 from numpy.polynomial import polynomial as P
 

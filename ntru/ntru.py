@@ -1,7 +1,7 @@
 # Implementation of NTRU Homomorphic encryption
 import math
-from fractions import gcd
-import poly
+from math import gcd
+from ntru import poly
 
 
 class Ntru:
