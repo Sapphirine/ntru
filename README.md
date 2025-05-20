@@ -1,6 +1,8 @@
 NTRU for Python 2.7
 ====================
 
+## Authors: Sunil Philip and Samad Khan
+
 Description
 ===========
 An important problem in data analytics is how to collect user data and make it available for analysis without compromising user privacy. A recommended solution is to encrypt data using ring homomorphism methods which allows analysis to be performed on encrypted data, allowing the analyst to perform analytics on the data without knowing the individual private data elements used in the analysis. Previous research showed that the existing NTRU encryption system could be modified to provide just this level of functionality, but open source tools do not currently exist to support NTRU on Python.
@@ -34,7 +36,6 @@ Helper Functions
 Documentation
 =============
 License and documentation are both provided in the Documentation folder.
-
 
 Technical Details
 =================
